@@ -17,6 +17,7 @@ Time Series Analysis on Air Traffic and Cargo System Forecasting
 * Seasonality: Repeating cycle at specific time-frames.
   * Yearly cycle exits in current case.
   * Add seasonal component into the model.
+![TS_Split](https://github.com/andy2167565/Air-Traffic-Forecast/blob/7049e30ee2790751373274e2aab60526fccf632e/img/TS_Split.JPG)
 
 ## Model Applied
 * Autoregressive Integrated Moving Average (ARIMA)
@@ -25,6 +26,7 @@ Time Series Analysis on Air Traffic and Cargo System Forecasting
 * Seasonal Autoregressive Integrated Moving Average (SARIMA)
   * An extension of ARIMA that explicitly supports univariate time series data with a seasonal component.
 * Training Time: Within 5 mins for each model
+![TS_Fit](https://github.com/andy2167565/Air-Traffic-Forecast/blob/7049e30ee2790751373274e2aab60526fccf632e/img/TS_Fit.JPG)
 
 ## Add External Variables - Holiday Factors
 * Data: Public Holidays
@@ -37,6 +39,7 @@ Time Series Analysis on Air Traffic and Cargo System Forecasting
   * long_weekend_length_0 ~ 5: The length of each long weekend. Represented by dummy variables.
 
 ## Forecast Result and Performance
+![Result_SARIMA](https://github.com/andy2167565/Air-Traffic-Forecast/blob/7049e30ee2790751373274e2aab60526fccf632e/img/Result_SARIMA.JPG)
 <table>
     <tr>
         <td><strong>R-squared</strong></td>
