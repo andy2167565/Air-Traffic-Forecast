@@ -37,6 +37,7 @@ Time Series Analysis on Air Traffic and Cargo System Forecasting
   * holiday_count: The number of holidays in each month.
   * is_summer_winter_vacation: Whether specific month is summer/winter vacation or not.
   * long_weekend_length_0 ~ 5: The length of each long weekend. Represented by dummy variables.
+![External_Variable](https://github.com/andy2167565/Air-Traffic-Forecast/blob/489320205eafc28c69a3e58d5d235bbb661674f1/img/External_Variable.JPG)
 
 ## Forecast Result and Performance
 ![Result_SARIMA](https://github.com/andy2167565/Air-Traffic-Forecast/blob/7049e30ee2790751373274e2aab60526fccf632e/img/Result_SARIMA.JPG)
